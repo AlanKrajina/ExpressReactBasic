@@ -108,6 +108,8 @@ add:
 
 ```
 
+##### - create components to fetch and show data
+
 7. run:
 ```js
 npm start
@@ -120,18 +122,14 @@ npm start
 ```
 
 
-///////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 ```js
-// Install dependencies for server
+// Install Express and any other dependencies
 npm install
-
--> installs Express and any other dependencies
-
 
 // Install dependencies for client
 npm run client-install
-
 
 // Run the client & server with concurrently
 npm run dev
