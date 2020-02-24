@@ -58,11 +58,15 @@ app.get('/api/boxers', (req, res) => {
 const port = 5000;
 
 app.listen(port, () => `Server running on port ${port}`);
-
+```
+```js
 // check server (in package.json -> "server": "nodemon server.js")
+
 npm run server
 
+
 // in browser
+
 http://localhost:5000/api/boxers
 
 // response
