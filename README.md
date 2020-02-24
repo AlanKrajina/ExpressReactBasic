@@ -1,6 +1,4 @@
-# ExpressReactBasic
-
-1. Inside new folder:
+#### 1. Inside new folder:
 
 ```js
 npm init // to create package.json
@@ -17,7 +15,7 @@ author: Alan
 */
 ```
 
-2. Install dependencies:
+#### 2. Install dependencies:
 
 ```js
 npm i express concurrently
@@ -26,14 +24,14 @@ npm i nodemon --save-dev
 // run app and constanlty watches changes
 ```
 
-3. Changes to package.json:
+#### 3. Changes to package.json:
 
 ```js
     "start": "node server.js",
     "server": "nodemon server.js"
 ```
 
-4. Create server.js  (backend DONE)
+#### 4. Create server.js  (backend DONE)
 
 
 ```js
@@ -88,7 +86,7 @@ http://localhost:5000/api/boxers
 ]
 ```
 
-5. Open another terminal and run (for FRONTEND):
+#### 5. Open another terminal and run (for FRONTEND):
 
 ```js
 create-react-app client
@@ -96,7 +94,7 @@ create-react-app client
 // creates react frontend client folder
 ```
 
-6. open package.json inside client folder:
+#### 6. open package.json inside client folder:
 
 ```js
 add:
@@ -110,7 +108,7 @@ add:
 
 ##### - create components to fetch and show data
 
-7. run:
+#### 7. run:
 ```js
 npm start
 
