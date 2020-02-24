@@ -33,7 +33,7 @@ npm i nodemon --save-dev
     "server": "nodemon server.js"
 ```
 
-4. Create server.js  (backend)
+4. Create server.js  (backend DONE)
 
 
 ```js
@@ -88,37 +88,41 @@ http://localhost:5000/api/boxers
 ]
 ```
 
-5. Open another terminal and run:
+5. Open another terminal and run (for FRONTEND):
 
--> create-react-app client
+```js
+create-react-app client
 
 // creates react frontend client folder
-
+```
 
 6. open package.json inside client folder:
 
+```js
 add:
 
   "proxy": "http://localhost:5000"
 
-
 // defining backend and URL as proxy
 // when fetching no need for http
 
+```
 
 7. run:
-
--> npm start
+```js
+npm start
 
 // frontend is now loaded
 
 -> npm run server
 
 // backend loaded and data fetched
+```
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
 
+```js
 // Install dependencies for server
 npm install
 
@@ -137,3 +141,4 @@ npm run server
 
 // Run the React client only
 npm run client
+```
