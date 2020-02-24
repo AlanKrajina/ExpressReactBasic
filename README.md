@@ -106,7 +106,7 @@ add:
 
 ```
 
-##### - create components to fetch and show data
+##### ----> create components to fetch and show data <----
 
 #### 7. run:
 ```js
